@@ -1,0 +1,276 @@
+ivr_111_1_1 = 查詢信用卡總額度, credit_card, quota
+ivr_111_1_2 = 查詢信用卡總額度, transaction, quota
+
+ivr_111_2_1 = 查詢信用卡已用額度, credit_card, spend
+ivr_111_2_2 = 查詢信用卡已用額度, credit_card, money, already
+ivr_111_2_3 = 查詢信用卡已用額度, credit_card, how_much, already
+
+ivr_111_3_1 = 查詢信用卡帳單結帳日, credit_card, date
+ivr_111_3_2 = 查詢信用卡帳單結帳日, checkout, date
+
+ivr_111_4_1 = 查詢信用卡已請款未列帳明細, request_payment
+ivr_111_4_2 = 查詢信用卡已請款未列帳明細, transaction, next
+
+ivr_111_5_1 = 查詢信用卡帳單繳款記錄, credit_card, pay
+ivr_111_5_2 = 查詢信用卡帳單繳款記錄, record, pay
+ivr_111_5_3 = 查詢信用卡帳單繳款記錄, credit_card, query, pay
+ivr_111_5_4 = 查詢信用卡帳單繳款記錄, query, record
+
+ivr_111_6_1 = 網路繳本行信用卡費用, qrcode, pay
+ivr_111_6_3 = 網路繳本行信用卡費用, ebill
+ivr_111_6_2 = 網路繳本行信用卡費用, web, pay
+
+ivr_111_7_1 = 申請帳戶自動扣繳信用卡費用, auto, pay
+ivr_111_7_2 = 申請帳戶自動扣繳信用卡費用, other_bank, pay
+ivr_111_7_3 = 申請帳戶自動扣繳信用卡費用, account, bid, pay
+
+ivr_111_8_1 = 查詢信用卡繳款方式, credit_card, pay, how
+ivr_111_8_2 = 查詢信用卡繳款方式, atm, pay
+ivr_111_8_3 = 查詢信用卡繳款方式, post
+ivr_111_8_4 = 查詢信用卡繳款方式, pay, method
+ivr_111_8_5 = 查詢信用卡繳款方式, credit_card, method
+ivr_111_8_6 = 查詢信用卡繳款方式, transfer, credit_card
+ivr_111_8_7 = 查詢信用卡繳款方式, transfer, atm, loss
+ivr_111_8_8 = 查詢信用卡繳款方式, id, code
+
+ivr_113_1_1 = 查詢信用卡帳單總應繳金額, current, credit_card, money
+ivr_113_1_2 = 查詢信用卡帳單總應繳金額, current, credit_card, bill
+ivr_113_1_3 = 查詢信用卡帳單總應繳金額, credit_card, money
+ivr_113_1_4 = 查詢信用卡帳單總應繳金額, current, bill, money
+ivr_113_1_5 = 查詢信用卡帳單總應繳金額, credit_card, nagative, pay
+ivr_113_1_6 = 查詢信用卡帳單總應繳金額, credit_card, dept
+ivr_113_1_7 = 查詢信用卡帳單總應繳金額, credit_card, checkout
+ivr_113_1_8 = 查詢信用卡帳單總應繳金額, credit_card, money, pay
+ivr_113_1_9 = 查詢信用卡帳單總應繳金額, current, credit_card, bill, how_much
+ivr_113_1_10 = 查詢信用卡帳單總應繳金額, current, credit_card, pay, how_much
+
+ivr_113_2_1 = 查詢信用卡帳單最低應繳金額, min
+ivr_113_2_2 = 查詢信用卡帳單最低應繳金額, min, credit_card, money
+ivr_113_2_3 = 查詢信用卡帳單最低應繳金額, min, credit_card, pay
+
+ivr_113_3_1 = 查詢信用卡繳款期限, deadline, date, credit_card, pay
+ivr_113_3_2 = 查詢信用卡繳款期限, deadline, credit_card, pay
+ivr_113_3_3 = 查詢信用卡繳款期限, least, date, credit_card, pay
+ivr_113_3_4 = 查詢信用卡繳款期限, least, credit_card, pay
+ivr_113_3_5 = 查詢信用卡繳款期限, least
+
+ivr_1121_1 = 查詢信用卡可用額度, quota, remaining
+ivr_1121_2 = 查詢信用卡可用額度, credit_card, remaining
+ivr_1121_3 = 查詢信用卡可用額度, money, remaining
+ivr_1121_4 = 查詢信用卡可用額度, credit_card, quota, remaining
+ivr_1121_5 = 查詢信用卡可用額度, credit_card, spend, quota
+ivr_1121_6 = 查詢信用卡可用額度, current, quota
+ivr_1121_7 = 查詢信用卡可用額度, current, remaining, credit_card
+ivr_1121_8 = 查詢信用卡可用額度, current, quota, credit_card
+ivr_1121_9 = 查詢信用卡可用額度, quota, remaining, money
+ivr_1121_10= 查詢信用卡可用額度, credit_card, quota, over, doubt
+ivr_1121_11= 查詢信用卡可用額度, quota, over, doubt
+ivr_1121_12= 查詢信用卡可用額度, remaining, how_much, money
+ivr_1121_13= 查詢信用卡可用額度, remaining, how_much
+ivr_1121_14= 查詢信用卡可用額度, remaining, how_much, quata
+ivr_1121_15= 查詢信用卡可用額度, remaining, how_much, current
+
+ivr_1122_1 = 調整信用卡額度, credit_card, quota, adjust
+ivr_1122_2 = 調整信用卡額度, credit_card, quota, over
+ivr_1122_3 = 調整信用卡額度, quota, over
+ivr_1122_4 = 調整信用卡額度, quota, under
+ivr_1122_5 = 調整信用卡額度, credit_card, quota, under
+ivr_1122_6 = 調整信用卡額度, credit_card, quota, bid
+
+ivr_118_1 = 補寄信用卡紙本帳單, credit_card, paper, bill, send
+ivr_118_2 = 補寄信用卡紙本帳單, credit_card, bill, send
+ivr_118_3 = 補寄信用卡紙本帳單, credit_card, bill, loss
+ivr_118_4 = 補寄信用卡紙本帳單, credit_card, bill, nagative
+ivr_118_5 = 補寄信用卡紙本帳單, credit_card, paper, bill, bid
+ivr_118_6 = 補寄信用卡紙本帳單, credit_card, paper, transaction, send
+ivr_118_7 = 補寄信用卡紙本帳單, credit_card, bill, forget
+
+ivr_114_1_1 = 補寄信用卡電子帳單, credit_card, email, bill, send
+ivr_114_1_2 = 補寄信用卡電子帳單, credit_card, electric, bill, send
+ivr_114_1_3 = 補寄信用卡電子帳單, credit_card, electric, bill, delete
+ivr_114_1_4 = 補寄信用卡電子帳單, credit_card, electric, bill, loss
+ivr_114_1_5 = 補寄信用卡電子帳單, credit_card, email, send
+ivr_114_1_6 = 補寄信用卡電子帳單, credit_card, electric, bill, send
+ivr_114_1_7 = 補寄信用卡電子帳單, electric, bill
+
+ivr_114_2_1 = 補寄信用卡簡訊帳單, credit_card, sms, bill, send
+ivr_114_2_2 = 補寄信用卡簡訊帳單, credit_card, mobile, bill, send
+ivr_114_2_3 = 補寄信用卡簡訊帳單, credit_card, sms, bill
+ivr_114_2_4 = 補寄信用卡簡訊帳單, credit_card, mobile, bill
+ivr_114_2_5 = 補寄信用卡簡訊帳單, sms, bill, delete
+ivr_114_2_6 = 補寄信用卡簡訊帳單, mobile, bill, delete
+ivr_114_2_7 = 補寄信用卡簡訊帳單, sms, bill, loss
+ivr_114_2_8 = 補寄信用卡簡訊帳單, mobile, bill, loss
+
+ivr_117_1 = 傳真信用卡帳單, credit_card, fax, bill, send
+ivr_117_2 = 傳真信用卡帳單, credit_card, fax, bill
+ivr_117_3 = 傳真信用卡帳單, fax, bill, send
+ivr_117_4 = 傳真信用卡帳單, fax, bill
+
+ivr_116_1 = 使用本行帳戶繳信用卡費, credit_card, esun, account, pay, bill
+ivr_116_2 = 使用本行帳戶繳信用卡費, credit_card, esun, pay, account
+ivr_116_3 = 使用本行帳戶繳信用卡費, credit_card, esun, account, pay, voice
+ivr_116_4 = 使用本行帳戶繳信用卡費, credit_card, esun, account, voice
+
+ivr_121_1 = 查詢信用卡申辦進度, credit_card, bid, state
+ivr_121_2 = 查詢信用卡申辦進度, credit_card, bid, when
+ivr_121_3 = 查詢信用卡申辦進度, credit_card, send, when
+ivr_121_4 = 查詢信用卡申辦進度, credit_card, take, when
+ivr_121_5 = 查詢信用卡申辦進度, credit_card, state, when
+ivr_121_6 = 查詢信用卡申辦進度, credit_card, state, when
+ivr_121_7 = 查詢信用卡申辦進度, credit_card, query, examine
+
+ivr_123_1 = 信用卡開卡, activate, credit_card
+
+ivr_132_1_1 = 申請信用卡消費分期, credit_card, installment
+ivr_132_1_2 = 申請信用卡消費分期, bid, installment
+ivr_132_1_3 = 申請信用卡消費分期, credit_card, interest_rate
+ivr_132_1_4 = 申請信用卡消費分期, installment, interest_rate
+ivr_132_1_5 = 申請信用卡消費分期, pay, installment
+ivr_132_1_6 = 申請信用卡消費分期, installment
+
+ivr_132_2_1 = 設定信用卡帳單分期, installment, credit_card, bill
+ivr_132_2_2 = 設定信用卡帳單分期, installment, bill
+ivr_132_2_3 = 設定信用卡帳單分期, installment, credit_card, remaining
+ivr_132_2_4 = 設定信用卡帳單分期, installment, web
+
+ivr_132_3_1 = 拍卡保費分期, installment, credit_card, insurance
+
+ivr_132_4_1 = 國旅卡免息分期優惠, installment, credit_card, insurance
+
+ivr_132_5_1 = 南山悠遊聯名卡保費分期, installment, credit_card, insurance
+
+ivr_132_6_1 = 信用卡保費分期, installment, credit_card, insurance
+
+ivr_132_7_1 = 信用卡學費分期, installment, credit_card, tuition
+
+ivr_133_1_1 = 信用卡預借現金服務, credit_card, cash_advance
+ivr_133_1_2 = 信用卡預借現金服務, credit_card, cash_advance, money
+
+ivr_133_3_1 = 信用卡預借現金手續費說明, handling_fee, cash_advance
+
+ivr_134_1 = 查詢信用卡預借現金額度, credit_card, cash_advance, quota
+ivr_134_2 = 查詢信用卡預借現金額度, cash_advance, money, how_much
+ivr_134_3 = 查詢信用卡預借現金額度, cash_advance, credit_card, how_much, money
+ivr_134_4 = 查詢信用卡預借現金額度, cash_advance, credit_card, how_much
+ivr_134_5 = 查詢信用卡預借現金額度, cash_advance, quota, how_much
+ivr_134_6 = 查詢信用卡預借現金額度, cash_advance, credit_card, money, quota
+
+ivr_136_1 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, reset, password
+ivr_136_2 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, reset, password, examine
+ivr_136_3 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, reset, password, examine
+ivr_136_4 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, reset, password, examine
+ivr_136_5 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, reset, account, examine
+ivr_136_6 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, forget, password
+ivr_136_7 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, forget, password, examine
+ivr_136_8 = 重新設定國旅卡檢核系統之帳號或密碼, credit_card, forget, account, examine
+ivr_136_9 = 重新設定國旅卡檢核系統之帳號或密碼, reset, password, examine
+ivr_136_10 = 重新設定國旅卡檢核系統之帳號或密碼, forget, password, examine
+
+
+ivr_*32_1 = 信用卡道路救援, road_assist
+ivr_*32_2 = 信用卡道路救援, road, assist
+
+ivr_14_1_1 = 信用卡紅利兌換, credit_card, discount
+ivr_14_1_2 = 信用卡紅利兌換, discount, exchange
+ivr_14_1_3 = 信用卡紅利兌換, credit_card, miles
+ivr_14_1_4 = 信用卡紅利兌換, give, discount
+
+ivr_14_2_1 = 信用卡機場外圍停車優惠, airport, parking
+ivr_14_2_2 = 信用卡機場外圍停車優惠, airport, parking_space
+
+ivr_14_3_1 = 信用卡機場貴賓室優惠, airport, vip
+
+ivr_14_4_1 = 信用卡旅遊保險, travel_insurance
+ivr_14_4_2 = 信用卡旅遊保險, travel, insurance
+ivr_14_4_3 = 信用卡旅遊保險, air_ticket, insurance
+
+ivr_14_5_1 = 信用卡市區停車優惠, parking
+ivr_14_5_2 = 信用卡市區停車優惠, parking, discount
+
+ivr_151_1 = 信用卡機場接送優惠, airport, pickup, discount
+ivr_151_2 = 信用卡機場接送優惠, airport_pickup, discount
+ivr_151_3 = 信用卡機場接送優惠, airport, pickup,
+ivr_151_4 = 信用卡機場接送優惠, airport_pickup,
+
+ivr_152_1 = 網路預約信用卡機場接送, reserve, airport_pickup
+ivr_152_2 = 網路預約信用卡機場接送, reserve, airport, pickup
+
+ivr_211_1 = 查詢帳戶存款餘額, account, remaining
+ivr_211_2 = 查詢帳戶存款餘額, deposit, remaining
+ivr_211_3 = 查詢帳戶存款餘額, account, deposit
+ivr_211_4 = 查詢帳戶存款餘額, twd, deposit
+ivr_211_5 = 查詢帳戶存款餘額, query, deposit
+ivr_211_6 = 查詢帳戶存款餘額, account, deposit, how_much
+
+ivr_212_1 = 查詢支票存款當日存待補票金額, check, makeup
+ivr_212_2 = 查詢支票存款當日存待補票金額, makeup, money
+ivr_212_3 = 查詢支票存款當日存待補票金額, check, money
+ivr_212_4 = 查詢支票存款當日存待補票金額, query, makeup
+ivr_212_5 = 查詢支票存款當日存待補票金額, query, check, makeup
+ivr_212_6 = 查詢支票存款當日存待補票金額, query, check, money
+
+ivr_213_1 = 傳真支票存款對帳單及存款帳戶交易明細, fax, transaction, account
+ivr_213_2 = 傳真支票存款對帳單及存款帳戶交易明細, check, bill
+ivr_213_3 = 傳真支票存款對帳單及存款帳戶交易明細, check, transaction, query
+ivr_213_4 = 傳真支票存款對帳單及存款帳戶交易明細, check, detail, query
+
+ivr_221_1 = 轉帳至本行帳戶, transfer, esun
+
+ivr_222_1 = 跨行轉帳, transfer, other_bank
+ivr_222_2 = 跨行轉帳, transfer, other_bank, esun
+
+ivr_224_1 = 申請台幣定期存款, bid, period
+ivr_224_2 = 申請台幣定期存款, forward, period
+ivr_224_3 = 申請台幣定期存款, twd, period
+ivr_224_4 = 申請台幣定期存款, transfer, period
+ivr_224_5 = 申請台幣定期存款, account, period
+
+ivr_235_1 = 語音密碼變更, voice, reset, password
+ivr_235_2 = 語音密碼變更, voice, bid, password
+
+ivr_242_1 = 查詢貸款繳款日期及金額, loan, pay
+ivr_242_2 = 查詢貸款繳款日期及金額, query, loan, pay
+
+ivr_31_1_1 = 數位帳戶服務, digital
+
+ivr_131_1 = 申請卡友貸, bid, card_loan
+ivr_131_2 = 申請卡友貸, bid, loan, credit_card
+ivr_131_3 = 申請卡友貸, credit_card, loan
+ivr_131_4 = 申請卡友貸, card_loan, money
+ivr_131_5 = 申請卡友貸, credit_card, loan, money
+ivr_131_6 = 申請卡友貸, credit_card, money, need
+ivr_131_7 = 申請卡友貸, dream
+ivr_131_8 = 申請卡友貸, credit_card, loan, quota
+ivr_131_9 = 申請卡友貸, card_loan, quota
+ivr_131_10 = 申請卡友貸, credit_card, loan, installment
+ivr_131_11 = 申請卡友貸, card_loan, installment
+
+ivr_*31_1 = 轉接道路救援合作廠商, forward, road_assist
+
+ivr_153_1 = 轉接ego台灣租車預約機場接送, forward, airport, pickup
+
+ivr_42_1 = 轉接證券服務專人, stock
+ivr_42_2 = 轉接證券服務專人, account, delivery
+
+ivr_218_1 = 轉接支存照會專人, check, notify
+ivr_218_2 = 轉接支存照會專人, notify
+ivr_218_3 = 轉接支存照會專人, ticket
+ivr_218_4 = 轉接支存照會專人, check, query
+
+ivr_241_1 = 轉接貸款申請專人, loan, forward
+ivr_241_2 = 轉接貸款申請專人, money, need
+
+ivr_*10_1 = 掛失信用卡, credit_card, loss
+
+ivr_*2_1 = 掛失金融卡, debit_card, loss
+
+ivr_10_1 = 轉接信用卡服務專人, credit_card, examine
+ivr_10_2 = 轉接信用卡服務專人, easy_card
+ivr_10_3 = 轉接信用卡服務專人, credit_card, card_components
+ivr_10_4 = 轉接信用卡服務專人, credit_card, send
+ivr_10_5 = 轉接信用卡服務專人, credit_card, deadline 
+ivr_10_6 = 轉接信用卡服務專人, credit_card, deadline, spend
+
+ivr_20_1 = 轉接銀行服務專人, bank_business
+ivr_20_2 = 轉接銀行服務專人, debit_card, examine

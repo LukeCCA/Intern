@@ -1,0 +1,175 @@
+| ans | pred | texts | keyword | 分析 |
+|-|-|-|-|-|
+| 111_1 | 1121 | 信用卡可刷額度 | ['credit_card', 'debit_card', 'quota', 'spend'] |  |
+| 111_1 | 1121 | 信用卡目前額度 | ['credit_card', 'current', 'debit_card', 'quota', 'spend'] | 0 |
+| 111_1 | 1121 | 信用卡目前可用額度 | ['credit_card', 'current', 'debit_card', 'quota', 'remaining', 'spend'] | 0 |
+| 111_1 | 1121 | 信用卡目前可使用的額度 | ['credit_card', 'current', 'debit_card', 'quota', 'spend'] | 0 |
+| 111_1 | 1121 | 卡片目前可用額度 | ['credit_card', 'current', 'debit_card', 'quota', 'remaining', 'spend'] | 0 |
+| 111_1 | 1121 | 卡片目前可刷額度 | ['credit_card', 'current', 'debit_card', 'quota', 'spend'] | 0 |
+| 111_1 | 111_2 | 目前卡片可刷金額 | ['credit_card', 'current', 'debit_card', 'money', 'spend'] | 0(1121) |
+| 111_1 | 1121 | 目前信用卡額度 | ['credit_card', 'current', 'debit_card', 'quota', 'spend'] | 0 |
+| 111_1 | 10 | 卡片刷卡上限 | ['credit_card', 'debit_card', 'spend'] | 上限 |
+| 111_3 | 121 | 信用卡帳務產出時間 | ['credit_card', 'debit_card', 'spend'] | 時間, spend? |
+| 111_3 | 113_3 | 我的帳單日期 | ['bill', 'date', 'installment'] | 期:installment |
+| 111_3 | 132_7 | 請問帳單關帳時間 | ['bill'] | 關帳 時間 |
+| 111_3 | 132_2 | 請問信用卡帳單周期 | ['bill', 'credit_card', 'debit_card', 'installment', 'spend'] | 期:installment, spend? |
+| 111_3 | 113_3 | 請問卡片帳單日期 | ['bill', 'credit_card', 'date', 'debit_card', 'installment'] | 期:installment |
+| 111_3 | 132_2 | 請問卡片帳單周期 | ['bill', 'credit_card', 'debit_card', 'installment'] | 期:installment |
+| 111_3 | 111_8 | 請問帳單繳款時間 | ['bill', 'pay'] | 時間 |
+| 111_3 | 132_7 | 帳單金額產出時間 | ['bill', 'money'] |  |
+| 111_4 | 111_5 | 下期帳單目前要繳哪些 | ['bill', 'current', 'installment', 'next', 'pay'] | 1 |
+| 111_4 | 132_7 | 次月帳單累積的內容明細 | ['bill', 'detail'] | 次月 |
+| 111_4 | 121 | 信用卡下個月已刷的明細 | ['already', 'credit_card', 'debit_card', 'detail', 'spend'] | 下個月 spend? |
+| 111_4 | 111_8 | 信用卡下個月要繳的內容 | ['credit_card', 'debit_card', 'pay', 'spend'] | 下個月, spend? |
+| 111_4 | 121 | 信用卡目前已經累積的內容 | ['already', 'credit_card', 'current', 'debit_card', 'spend'] |  |
+| 111_4 | 111_8 | 卡片下個月要繳的內容 | ['credit_card', 'debit_card', 'pay'] | 下個月 |
+| 111_4 | 113_1 | 卡片下個月應繳的明細 | ['credit_card', 'debit_card', 'dept', 'detail', 'pay'] | 下個月 |
+| 111_5 | 111_8 | 幫我查這個月帳單繳款了嗎 | ['bill', 'doubt', 'pay'] |  |
+| 111_5 | 113_3 | 我這期個用卡帳單繳了嗎 | ['bill', 'credit_card', 'current', 'debit_card', 'doubt', 'installment', 'pay', 'spend'] | 期:installment, spend? |
+| 111_5 | 113_1 | 有沒有收到信用卡繳款 | ['credit_card', 'debit_card', 'doubt', 'nagative', 'over', 'pay', 'spend'] | spend? |
+| 111_5 | 111_8 | 這個月帳單有扣款成功嗎 | ['bill', 'doubt', 'pay'] |  |
+| 111_5 | 111_6 | 信用卡帳單要扣到款項嗎 | ['bill', 'credit_card', 'debit_card', 'doubt', 'pay', 'spend'] | spend? |
+| 111_5 | 111_1 | 我有轉錢到信用卡有進去嗎 | ['credit_card', 'debit_card', 'doubt', 'forward', 'money', 'spend', 'transfer'] | spend? |
+| 111_5 | 111_7 | 有辦自動扣繳有扣到信用卡款項嗎 | ['auto', 'bid', 'credit_card', 'debit_card', 'doubt', 'pay', 'spend'] | 1 |
+| 111_7 | 116 | 玉山帳戶自動繳卡費 | ['account', 'auto', 'bill', 'credit_card', 'debit_card', 'esun', 'pay'] |  |
+| 111_7 | 116 | 玉山帳戶自動扣信用卡費 | ['account', 'auto', 'bill', 'credit_card', 'debit_card', 'esun', 'pay', 'spend'] |  |
+| 111_8 | 111_5 | 英文轉數字 | ['forward'] | ? |
+| 111_8 | 221 | 要使用atm轉帳 | ['atm', 'forward', 'spend', 'transfer'] | 0 |
+| 111_8 | 132_7 | 帳單遺失查詢atm轉帳帳戶 | ['account', 'atm', 'bill', 'forward', 'loss', 'query', 'transfer'] |  |
+| 111_8 | 132_7 | 帳單遺失轉帳帳戶 | ['account', 'bill', 'forward', 'loss', 'transfer'] |  |
+| 111_8 | 111_6 | 網路轉帳繳款信用卡款帳號 | ['account', 'credit_card', 'debit_card', 'forward', 'info', 'pay', 'spend', 'transfer', 'web'] | 1 |
+| 111_8 | 111_3 | 請問信用卡費可否轉帳 | ['bill', 'credit_card', 'debit_card', 'forward', 'spend', 'transfer'] |  |
+| 111_8 | 111_7 | 轉帳信用卡繳款 | ['credit_card', 'debit_card', 'forward', 'pay', 'spend', 'transfer'] |  |
+| 111_8 | 113_3 | 信用卡帳單怎麼繳費 | ['bill', 'credit_card', 'debit_card', 'how', 'pay', 'spend'] |  |
+| 111_8 | 111_6 | 信用卡繳費方式 | ['bill', 'credit_card', 'debit_card', 'method', 'pay', 'spend'] |  |
+| 111_8 | 113_3 | 信用卡如何繳費 | ['bill', 'credit_card', 'debit_card', 'how', 'pay', 'spend'] |  |
+| 111_8 | 111_5 | 信用卡可以轉帳繳款嗎 | ['credit_card', 'debit_card', 'doubt', 'forward', 'pay', 'spend', 'transfer'] |  |
+| 111_8 | 111_5 | 信用卡可以到ATM繳嗎 | ['credit_card', 'debit_card', 'doubt', 'pay', 'spend'] |  |
+| 111_8 | 111_5 | 信用卡可以郵局繳嗎 | ['credit_card', 'debit_card', 'doubt', 'other_bank', 'pay', 'post', 'spend'] |  |
+| 111_8 | 113_3 | 信用卡費怎麼繳費 | ['bill', 'credit_card', 'debit_card', 'how', 'pay', 'spend'] |  |
+| 111_8 | 111_6 | 信用卡費繳費方式 | ['bill', 'credit_card', 'debit_card', 'method', 'pay', 'spend'] |  |
+| 111_8 | 113_3 | 信用卡費如何繳費 | ['bill', 'credit_card', 'debit_card', 'how', 'pay', 'spend'] |  |
+| 113_1 | 1121 | 信用卡費多少 | ['bill', 'credit_card', 'debit_card', 'how_much', 'spend', 'under'] |  |
+| 113_1 | 111_1 | 信用卡款多少 | ['credit_card', 'debit_card', 'how_much', 'spend', 'under'] |  |
+| 113_1 | 111_1 | 信用卡款多少錢 | ['credit_card', 'debit_card', 'how_much', 'money', 'spend', 'under'] |  |
+| 113_1 | 132_7 | 帳單這次金額多少 | ['bill', 'current', 'how_much', 'money', 'under'] |  |
+| 113_1 | 132_7 | 帳單這次金額多少錢 | ['bill', 'current', 'how_much', 'money', 'under'] |  |
+| 113_1 | 111_4 | 帳單這次要繳多少 | ['bill', 'current', 'how_much', 'pay', 'under'] |  |
+| 113_2 | 113_1 | 未繳的最低金額至少要繳多少 | ['dept', 'how_much', 'min', 'money', 'pay', 'under'] | 1 |
+| 113_3 | 132_2 | 帳單過期時間 | ['bill', 'installment'] | installment?, 時間, 過期 |
+| 113_3 | 111_3 | 我的帳單幾號截止 | ['bill', 'date'] | 0, 截止 |
+| 113_3 | 111_3 | 我的帳單截止日幾號 | ['bill', 'date'] | 0, 截止 |
+| 113_3 | 111_3 | 帳單幾號截止 | ['bill', 'date'] | 0, 截止 |
+| 113_3 | 111_3 | 信用卡帳單幾號截止 | ['bill', 'credit_card', 'date', 'debit_card', 'spend'] | 0, 截止 |
+| 113_3 | 111_3 | 信用卡帳單截止時間 | ['bill', 'credit_card', 'debit_card', 'spend'] | 0, 截止 |
+| 113_3 | 132_2 | 信用卡帳單過期時間 | ['bill', 'credit_card', 'debit_card', 'installment', 'spend'] | installment? |
+| 113_3 | 121 | 信用卡最後一天什麼時候 | ['credit_card', 'date', 'debit_card', 'how', 'least', 'spend', 'when'] |  |
+| 1121 | 111_1 | 我信用卡額度還有多少 | ['credit_card', 'debit_card', 'how_much', 'quota', 'remaining', 'spend', 'under'] | 1 |
+| 1121 | 111_1 | 我刷卡額度還有多少 | ['credit_card', 'debit_card', 'how_much', 'quota', 'remaining', 'spend', 'under'] | 1 |
+| 1121 | 111_1 | 現在額度有多少 | ['current', 'how_much', 'quota', 'under'] | 1 |
+| 1121 | 111_2 | 現在可刷卡多少錢 | ['credit_card', 'current', 'debit_card', 'how_much', 'money', 'spend', 'under'] | 1 |
+| 1121 | 111_2 | 現在能還刷多少錢 | ['current', 'how_much', 'money', 'remaining', 'spend', 'under'] | 1 |
+| 1121 | 111_1 | 刷卡額度還有多少 | ['credit_card', 'debit_card', 'how_much', 'quota', 'remaining', 'spend', 'under'] | 1 |
+| 1121 | 111_1 | 信用卡還有多少額度 | ['credit_card', 'debit_card', 'how_much', 'quota', 'remaining', 'spend', 'under'] | 1 |
+| 1122 | 111_1 | 信用卡額度變更 | ['credit_card', 'debit_card', 'quota', 'reset', 'spend'] | 變更 |
+| 1122 | 111_1 | 卡片額度不夠 | ['credit_card', 'debit_card', 'quota', 'under'] |  |
+| 1122 | 111_1 | 提高卡片額度 | ['credit_card', 'debit_card', 'quota'] | 提高 |
+| 1122 | 10 | 增加信用卡每月可刷費用 | ['bill', 'credit_card', 'debit_card', 'pay', 'spend'] | 增加 |
+| 1122 | 111_1 | 提高每月可刷卡金額 | ['credit_card', 'debit_card', 'money', 'spend'] | 提高 |
+| 118 | 111_6 | 寄送信用卡繳款紙本帳單 | ['bill', 'credit_card', 'debit_card', 'give', 'paper', 'pay', 'send', 'spend'] | spend? |
+| 118 | 117 | 信用卡帳單幫我寄到我的地址 | ['bill', 'credit_card', 'debit_card', 'send', 'spend'] | spend? |
+| 114_2 | 132_2 | 本期簡訊帳單補發 | ['bill', 'current', 'installment', 'makeup', 'send', 'sms'] | installment? |
+| 116 | 111_7 | 我想用語音申請本行帳戶繳卡費 | ['account', 'bid', 'bill', 'credit_card', 'debit_card', 'esun', 'pay', 'spend', 'voice'] |  |
+| 116 | 111_6 | 我想用我的帳號語音繳卡費 | ['account', 'bill', 'credit_card', 'debit_card', 'info', 'pay', 'spend', 'voice'] |  |
+| 121 | 10 | 新信用卡幫寄送 | ['credit_card', 'debit_card', 'give', 'send', 'spend'] | ? |
+| 121 | 31_5 | 寫聯徵審核中 | ['examine'] | ? |
+| 121 | 10 | 請問有收到申請信用卡的補件資料嗎？ | ['bid', 'credit_card', 'debit_card', 'doubt', 'makeup', 'send', 'spend'] |  |
+| 121 | 20 | 多久能收到卡片 | ['credit_card', 'debit_card'] | 多久 |
+| 121 | 20 | 申辦卡片流程 | ['bid', 'credit_card', 'debit_card'] | ? |
+| 121 | #10 | 尚未收到新申辦信用卡 | ['bid', 'credit_card', 'debit_card', 'loss', 'nagative', 'spend'] |  |
+| 123 | 121 | 我想開信用卡 | ['credit_card', 'debit_card', 'spend'] | 開 |
+| 123 | 121 | 我想要開信用卡 | ['credit_card', 'debit_card', 'spend'] | 開 |
+| 123 | 136 | 新戶開卡密碼 | ['activate', 'credit_card', 'debit_card', 'password'] | 0, 開 |
+| 132_1 | 111_3 | 信用卡分期 | ['credit_card', 'debit_card', 'installment', 'spend'] |  |
+| 132_1 | 111_3 | 我要信用卡分期 | ['credit_card', 'debit_card', 'installment', 'spend'] |  |
+| 132_1 | 132_3 | 信用卡有零利率分期嗎 | ['credit_card', 'debit_card', 'doubt', 'installment', 'interest_rate', 'spend'] |  |
+| 132_1 | 10 | 信用卡分期怎麼申請 | ['bid', 'credit_card', 'debit_card', 'how', 'installment', 'spend'] |  |
+| 132_1 | 111_3 | 我的信用卡要分期 | ['credit_card', 'debit_card', 'installment', 'spend'] |  |
+| 132_2 | 132_7 | 信用卡帳單如何申請分期 | ['bid', 'bill', 'credit_card', 'debit_card', 'how', 'installment', 'spend'] |  |
+| 132_2 | 20 | 帳單分期有額度限制嗎 | ['bill', 'doubt', 'installment', 'quota'] |  |
+| 132_3 | 132_6 | 如果刷pi拍錢包信用卡付保費可以分期嗎 | ['bill', 'credit_card', 'debit_card', 'doubt', 'installment', 'insurance', 'money', 'spend'] |  |
+| 132_3 | 132_6 | 用PI卡刷保費一定要分期才會給1.5%回饋嗎 | ['bill', 'credit_card', 'debit_card', 'doubt', 'installment', 'insurance', 'spend'] |  |
+| 132_4 | 111_3 | 刷國民旅遊卡要分期 | ['credit_card', 'debit_card', 'installment', 'spend', 'travel'] |  |
+| 132_4 | 132_3 | 刷國旅卡分期還有回饋嗎 | ['credit_card', 'debit_card', 'doubt', 'installment', 'remaining', 'spend'] |  |
+| 132_4 | 10 | 刷國旅卡設定分期還可以請領補助嗎 | ['credit_card', 'debit_card', 'doubt', 'installment', 'makeup', 'remaining', 'reset', 'send', 'spend'] |  |
+| 132_4 | 10 | 用國旅卡刷醫療費用可以分期嗎 | ['bill', 'credit_card', 'debit_card', 'doubt', 'installment', 'pay', 'spend'] |  |
+| 132_5 | 111_3 | 南山聯名卡刷保險可以分幾期 | ['credit_card', 'debit_card', 'installment', 'insurance', 'spend'] |  |
+| 132_5 | 132_3 | 南山聯名卡刷保險以外可以分期免息嗎 | ['credit_card', 'debit_card', 'doubt', 'installment', 'insurance', 'spend'] |  |
+| 132_6 | 132_3 | 保險金額信用卡分期 | ['credit_card', 'debit_card', 'installment', 'insurance', 'money', 'spend'] |  |
+| 132_6 | 14_4 | 保費登入 | ['bill', 'insurance'] |  |
+| 133_1 | 131 | 預借現金分期要電洽客服 | ['cash_advance', 'installment', 'money'] | 1 |
+| 133_1 | 133_3 | 預借現金手續費告訴 | ['bill', 'cash_advance', 'handling_fee', 'money'] | 0 |
+| 133_2 | 133_1 | 信用卡借錢的密碼 | ['cash_advance', 'credit_card', 'debit_card', 'money', 'password', 'spend'] |  |
+| 133_2 | 133_1 | 忘記ATM信用卡借錢密碼 | ['cash_advance', 'credit_card', 'debit_card', 'money', 'password', 'spend', 'forget'] |  |
+| 134 | 133_1 | 可借用現金 | ['cash_advance', 'money', 'spend'] | 1 |
+| 134 | 133_1 | 借用現金查詢 | ['cash_advance', 'money', 'query', 'spend'] | 1 |
+| 134 | 133_1 | 我要預借現金 | ['cash_advance', 'money'] | 1 |
+| 134 | 133_1 | 卡片借用現金 | ['cash_advance', 'credit_card', 'debit_card', 'money', 'spend'] | 1 |
+| #32 | #31 | 車子需要拖吊 | ['need', 'road_assist'] |  |
+| #32 | #31 | 請問有免費拖吊 | ['bill', 'road_assist'] |  |
+| 14_1 | 31_5 | 歡樂199 | [] | no keyword |
+| 14_1 | 31_5 | 點數說明 | [] | no keyword |
+| 14_4 | 31_5 | 贈送旅平險 | ['give'] | no keyword |
+| 14_4 | 31_5 | 贈送不便險 | ['give'] | no keyword |
+| 14_4 | 132_3 | 持卡享有保險 | ['credit_card', 'debit_card', 'insurance'] |  |
+| 14_5 | 14_2 | 我的信用卡可以免費市區停車嗎 | ['bill', 'credit_card', 'debit_card', 'doubt', 'parking', 'spend'] | 1 |
+| 14_5 | 121 | 信用卡要怎樣才可以免費市區停車 | ['bill', 'credit_card', 'debit_card', 'how', 'parking', 'spend', 'state'] | state |
+| 14_5 | 14_2 | 免費市區停車的條件是什麼 | ['bill', 'how', 'parking'] | 1 |
+| 14_5 | 132_3 | 可以用紅利折抵市區停車嗎 | ['discount', 'doubt', 'parking', 'spend'] |  |
+| 151 | 153 | 我的卡片能享有哪種接送 | ['credit_card', 'debit_card', 'give', 'pickup'] |  |
+| 151 | 132_7 | 自費接送 | ['bill', 'give', 'pickup'] |  |
+| 151 | 153 | 卡片專屬接送 | ['credit_card', 'debit_card', 'give', 'pickup'] |  |
+| 151 | 14_1 | 卡片專屬接送優惠 | ['credit_card', 'debit_card', 'discount', 'give', 'pickup'] |  |
+| 151 | 152 | 我要預約機場接送 | ['airport', 'airport_pickup', 'give', 'pickup', 'reserve'] | 0 |
+| 152 | 133_3 | 機場接送的費用 | ['airport', 'airport_pickup', 'bill', 'give', 'pay', 'pickup', 'spend'] | ? |
+| 212 | 10 | 今天補票金額 | ['makeup', 'money', 'send'] | 票 |
+| 212 | 10 | 查詢今天補票金額 | ['makeup', 'money', 'query', 'send'] | 票 |
+| 212 | 10 | 今天補票金額 | ['makeup', 'money', 'send'] | 票 |
+| 213 | 10 | 存款明細快點傳來 | ['deposit', 'detail', 'send'] |  |
+| 213 | 10 | 快點傳來存款明細 | ['deposit', 'detail', 'send'] |  |
+| 222 | 221 | 我要轉帳到非本行的帳號 | ['account', 'esun', 'forward', 'info', 'transfer'] | 非本行 |
+| 222 | 111_5 | 我要跨轉 | ['forward'] |  |
+| 242 | 241 | 這期貸款多少錢 | ['bank_business', 'current', 'how_much', 'installment', 'loan', 'money', 'under'] |  |
+| 31_1 | 111_5 | 數位帳戶可以當交割戶嗎 | ['account', 'delivery', 'digital', 'doubt', 'pay'] |  |
+| 31_1 | 111_6 | 網路怎麼開戶 | ['how', 'web'] | 開, 戶 |
+| 31_3 | 31_1 | 網銀帳號更改 | ['account', 'digital', 'info', 'reset', 'web'] | 1 |
+| 31_4 | 111_1 | 淘寶額度提高 | ['quota'] | 提高 |
+| 31_4 | 31_5 | 淘寶怎麼買 | ['how'] |  |
+| 31_4 | 121 | 淘寶退款進度 | ['state'] |  |
+| 31_4 | 211 | 淘寶退款帳號設定 | ['account', 'info', 'reset'] |  |
+| 31_4 | 31_5 | 淘寶退款要多久 | [] |  |
+| 131 | 241 | 卡片信貸 | ['credit_card', 'debit_card', 'loan'] | 1 |
+| 153 | 152 | 我想變更機場接送預約 | ['airport', 'airport_pickup', 'give', 'pickup', 'reserve', 'reset'] | 1 |
+| 153 | 152 | 如何變更機場接送預約 | ['airport', 'airport_pickup', 'give', 'how', 'pickup', 'reserve', 'reset'] | 1 |
+| 153 | 152 | 班機取消所以要取消預約機場接送 | ['airport', 'airport_pickup', 'give', 'pickup', 'reserve', 'take'] | 1 |
+| 218 | 31_5 | 票信客服 | ['ticket'] |  |
+| 218 | 31_5 | 支照 | [] | no keyword |
+| #10 | 1121 | 我信用卡被盜刷了 | ['credit_card', 'debit_card', 'spend'] | 盜刷 |
+| #10 | 121 | 弄丟信用卡 | ['credit_card', 'debit_card', 'spend'] | 丟 |
+| #2 | #10 | 存摺跟金融卡遺失 | ['credit_card', 'debit_card', 'loss'] | 存摺 |
+| #2 | #10 | 未成年掛失金融卡 | ['credit_card', 'debit_card', 'loss'] |  |
+| 10 | 121 | 退件信用卡 | ['credit_card', 'debit_card', 'spend'] |  |
+| 10 | 14_1 | 換卡退回 | ['credit_card', 'debit_card', 'exchange'] |  |
+| 10 | 121 | 信用卡損壞 | ['credit_card', 'debit_card', 'spend'] |  |
+| 10 | 111_1 | 信用卡額度問題 | ['credit_card', 'debit_card', 'quota', 'spend'] | 0 |
+| 10 | 121 | 信用卡感應不良 | ['credit_card', 'debit_card', 'spend'] |  |
+| 10 | #10 | 信用卡遺失 | ['credit_card', 'debit_card', 'loss', 'spend'] | 0 |
+| 10 | 31_5 | 安全碼模糊 | [] | no keyword |
+| 10 | 1122 | 信用卡額度調高 | ['adjust', 'credit_card', 'debit_card', 'quota', 'spend'] | 0 |
+| 10 | 14_1 | 信用卡優惠問題 | ['credit_card', 'debit_card', 'discount', 'spend'] | 0 |
+| 10 | 14_1 | 信用卡紅利點數查詢 | ['credit_card', 'debit_card', 'discount', 'query', 'spend'] | 0 |
+| 20 | 10 | 國外可以刷簽帳卡嗎 | ['credit_card', 'debit_card', 'doubt', 'spend'] | 1 |
+| 20 | 1121 | 請問debit卡有限額嗎 | ['credit_card', 'debit_card', 'doubt', 'quota'] | 0 |
+| 20 | #10 | 新申請的debit卡還沒收到首刷禮 | ['bid', 'credit_card', 'debit_card', 'loss', 'nagative', 'over', 'remaining', 'spend'] | 1 |
+| 20 | 111_5 | 我要轉銀行專人 | ['forward'] |  |
+| 20 | 111_5 | 銀行客服怎麼轉 | ['forward', 'how'] |  |
